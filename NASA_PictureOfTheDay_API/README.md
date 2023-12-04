@@ -10,7 +10,6 @@ Example Image:
 GET https://api.nasa.gov/planetary/apod
 concept_tags are now disabled in this service. Also, an optional return parameter copyright is returned if the image is not public domain.
 
-Certainly! Here is the information formatted into a table for a README.md file:
 
 | Parameter   | Type         | Default    | Description                                                                                               |
 |-------------|--------------|------------|-----------------------------------------------------------------------------------------------------------|
@@ -20,5 +19,3 @@ Certainly! Here is the information formatted into a table for a README.md file:
 | count       | int          | none       | If this is specified then count randomly chosen images will be returned. Cannot be used with date or start_date and end_date. |
 | thumbs      | bool         | False      | Return the URL of video thumbnail. If an APOD is not a video, this parameter is ignored.                   |
 | api_key     | string       | DEMO_KEY   | api.nasa.gov key for expanded usage                                                                      |
-
-Feel free to copy and paste this table into your README.md file.
