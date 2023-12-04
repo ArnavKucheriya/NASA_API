@@ -4,9 +4,9 @@ One of the most popular websites at NASA is the Astronomy Picture of the Day. Th
 
 The full documentation for this API can be found in the APOD API GitHub repository.
 
-Example Image: Date - 12/04/2023
-Image Name: Plane Crossing Crescent Moon
-Image Credit: Juned Patel
+Example Image: Date - 12/04/2023 <br>
+Image Name: Plane Crossing Crescent Moon <br>
+Image Credit: Juned Patel <br>
 ![image](https://github.com/ArnavKucheriya/NASA_API/assets/114359370/1dad652f-b6d3-4c51-bacc-9d6c2e4f8ea0)
 Image Description: No, the Moon is not a bow, and no, it did not shoot out a plane like an arrow. What is pictured is a chance superposition. The plane's contrail would normally appear white, but the large volume of air toward the rising Sun preferentially knocked away blue light, not only making the sky blue, but giving the reflected trail a bright red hue. Far in the distance, well behind the plane, the crescent Moon also appears slightly reddened. Captured early last month from Bolton, UK, the featured image was taken so soon after sunrise that the plane was sunlit from below, as was its contrail. Within minutes, unfortunately, the impromptu sky show ended. The plane moved out of sight. The Moon kept rising but became harder to see through a brightening sky. And the contrail gradually dispersed.
 
