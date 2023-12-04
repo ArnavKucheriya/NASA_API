@@ -4,7 +4,9 @@ One of the most popular websites at NASA is the Astronomy Picture of the Day. Th
 
 The full documentation for this API can be found in the APOD API GitHub repository.
 
-Example Image: ![image](https://github.com/ArnavKucheriya/NASA_API/assets/114359370/60a9d8e7-170e-490f-aeed-80406ed9ade9)
+Example Image: Date - 12/04/2023
+![image](https://github.com/ArnavKucheriya/NASA_API/assets/114359370/1dad652f-b6d3-4c51-bacc-9d6c2e4f8ea0)
+
 
 ## HTTP Request
 GET https://api.nasa.gov/planetary/apod
