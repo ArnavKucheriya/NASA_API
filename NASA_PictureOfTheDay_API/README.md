@@ -10,6 +10,7 @@ Example Image:
 GET https://api.nasa.gov/planetary/apod
 concept_tags are now disabled in this service. Also, an optional return parameter copyright is returned if the image is not public domain.
 
+## Query Parameters:
 
 | Parameter   | Type         | Default    | Description                                                                                               |
 |-------------|--------------|------------|-----------------------------------------------------------------------------------------------------------|
