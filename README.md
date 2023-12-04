@@ -47,5 +47,3 @@ Anyone can register for an api.nasa.gov key, which can be used to access data ac
 - Techport (API to make NASA Technology Project Data in ML Format)
 - TLE API (Two Line Element Data for Earth-Orbiting Objects at Point and Time)
 - Vesta/Moon/Mars Trek WMTS (A Web Map Tile Service for the Vesta, Moon, and Mars Trek Imagery Projects)
-=======
->>>>>>> aee2a6f2a236a50c416a954589ab11b1d4fed991
