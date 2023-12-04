@@ -1,14 +1,14 @@
-APOD (Astronomy Picture of the Day):
+# APOD (Astronomy Picture of the Day):
 
-One of the most popular websites at NASA is the Astronomy Picture of the Day. In fact, this website is one of the most popular websites across all federal agencies. It has the popular appeal of a Justin Bieber video. This endpoint structures the APOD imagery and associated metadata so that it can be repurposed for other applications. In addition, if the concept_tags parameter is set to True, then keywords derived from the image explanation are returned. These keywords could be used as auto-generated hashtags for twitter or instagram feeds; but generally help with discoverability of relevant imagery.
+One of the most popular websites at NASA is the Astronomy Picture of the Day. This website is one of the most popular websites across all federal agencies. It has the popular appeal of a Justin Bieber video. This endpoint structures the APOD imagery and associated metadata to be repurposed for other applications. In addition, if the concept_tags parameter is set to True, then keywords derived from the image explanation are returned. These keywords could be used as auto-generated hashtags for Twitter or Instagram feeds, but generally help with the discoverability of relevant imagery.
 
-The full documentation for this API can be found in the APOD API Github repository.
+The full documentation for this API can be found in the APOD API GitHub repository.
 
-Example Image: 
+Example Image: ![image](https://github.com/ArnavKucheriya/NASA_API/assets/114359370/60a9d8e7-170e-490f-aeed-80406ed9ade9)
 
 ## HTTP Request
 GET https://api.nasa.gov/planetary/apod
-concept_tags are now disabled in this service. Also, an optional return parameter copyright is returned if the image is not public domain.
+concept_tags are now disabled in this service. Also, an optional return parameter copyright is returned if the image is not in the public domain.
 
 ## Query Parameters:
 
