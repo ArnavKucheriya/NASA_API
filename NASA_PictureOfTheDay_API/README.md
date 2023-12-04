@@ -1,14 +1,18 @@
-APOD (Astronomy Picture of the Day):
+# APOD (Astronomy Picture of the Day):
 
-One of the most popular websites at NASA is the Astronomy Picture of the Day. In fact, this website is one of the most popular websites across all federal agencies. It has the popular appeal of a Justin Bieber video. This endpoint structures the APOD imagery and associated metadata so that it can be repurposed for other applications. In addition, if the concept_tags parameter is set to True, then keywords derived from the image explanation are returned. These keywords could be used as auto-generated hashtags for twitter or instagram feeds; but generally help with discoverability of relevant imagery.
+One of the most popular websites at NASA is the Astronomy Picture of the Day. This website is one of the most popular websites across all federal agencies. It has the popular appeal of a Justin Bieber video. This endpoint structures the APOD imagery and associated metadata to be repurposed for other applications. In addition, if the concept_tags parameter is set to True, then keywords derived from the image explanation are returned. These keywords could be used as auto-generated hashtags for Twitter or Instagram feeds, but generally help with the discoverability of relevant imagery.
 
-The full documentation for this API can be found in the APOD API Github repository.
+The full documentation for this API can be found in the [APOD API GitHub repository](https://github.com/nasa/apod-api).
 
-Example Image: 
+Example Image: Date - 12/04/2023 <br>
+Image Name: Plane Crossing Crescent Moon <br>
+Image Credit: Juned Patel <br>
+![image](https://github.com/ArnavKucheriya/NASA_API/assets/114359370/1dad652f-b6d3-4c51-bacc-9d6c2e4f8ea0) <br>
+Image Description: No, the Moon is not a bow, and no, it did not shoot out a plane like an arrow. What is pictured is a chance superposition. The plane's contrail would normally appear white, but the large volume of air toward the rising Sun preferentially knocked away blue light, not only making the sky blue, but giving the reflected trail a bright red hue. Far in the distance, well behind the plane, the crescent Moon also appears slightly reddened. Captured early last month from Bolton, UK, the featured image was taken so soon after sunrise that the plane was sunlit from below, as was its contrail. Within minutes, unfortunately, the impromptu sky show ended. The plane moved out of sight. The Moon kept rising but became harder to see through a brightening sky. And the contrail gradually dispersed.
 
 ## HTTP Request
 GET https://api.nasa.gov/planetary/apod
-concept_tags are now disabled in this service. Also, an optional return parameter copyright is returned if the image is not public domain.
+concept_tags are now disabled in this service. Also, an optional return parameter copyright is returned if the image is not in the public domain.
 
 ## Query Parameters:
 

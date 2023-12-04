@@ -1,6 +1,8 @@
 # NASA API
 Welcome to the NASA API portal. The objective of this site is to make NASA data, including imagery, eminently accessible to application developers. This catalog focuses on broadly useful and user friendly APIs and does not hold every NASA API.
 
+Access NASA API: https://api.nasa.gov/
+
 # Authentication
 You do not need to authenticate in order to explore the NASA data. However, if you will be intensively using the APIs to, say, support a mobile application, then you should sign up for a NASA developer key.
 
@@ -25,6 +27,7 @@ The hourly counters for your API key reset on a rolling basis.
 Example: If you made 500 requests at 10:15AM and 500 requests at 10:25AM, your API key would become temporarily blocked. This temporary block of your API key would cease at 11:15AM, at which point you could make 500 requests. At 11:25AM, you could then make another 500 requests.
 
 Anyone can register for an api.nasa.gov key, which can be used to access data across federal agencies.
+<<<<<<< HEAD
 
 ## APIs:
 - APOD (Astronomy Picture of the Day)
@@ -44,3 +47,5 @@ Anyone can register for an api.nasa.gov key, which can be used to access data ac
 - Techport (API to make NASA Technology Project Data in ML Format)
 - TLE API (Two Line Element Data for Earth-Orbiting Objects at Point and Time)
 - Vesta/Moon/Mars Trek WMTS (A Web Map Tile Service for the Vesta, Moon, and Mars Trek Imagery Projects)
+=======
+>>>>>>> aee2a6f2a236a50c416a954589ab11b1d4fed991
