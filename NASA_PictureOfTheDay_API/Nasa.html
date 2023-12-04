@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+	<h2>Astronomy Picture of the day</h2>
+	<input type="date" id="date" onchange="getDate();">
+	<h3 class="img-title" id="title"></h3>
+	<em class="date" id="pic_date"></em>
+	<img src="" alt="" id="apod_pic" class="img-apod">
+	<p class="caption" id="caption"></p>
+
+
+	<script type="text/javascript">
+
+		// Declaration of variables
+		var method = "GET";
+		const key = 
+		"U0PqJ5UprbVQExkXc7ZgsGVfIM7Z1O8Uiv7g2hOO";
+
+		var url = 
+		"https://api.nasa.gov/planetary/apod?api_key="
+				+ key + "&date=";
+		var mode = true;
+		var date;
+
+		// Function definition to get date from
+		// input box and supply in sendHttpRequest
+		// function
+		function getDate() {
+			date = document.getElementById("date").value;
+			console.log(date);
+			sendHttpRequest(method, url + date, 
+				mode).then((data) => {
+				console.log(data);
+				update(data);
+			});
+
+		}
+
+		// Declaration of update function to 
+		// display the fetched data on webpage 
+		function update(data) {
+			document.getElementById("pic_date")
+				.innerHTML = data.date;
+
+			document.getElementById("title")
+				.innerHTML = data.title;
+
+			document.getElementById("apod_pic")
+				.src = data.url;
+
+			document.getElementById("caption")
+				.innerHTML = data.explanation;
+			return data;
+		}
+
+		// Send request to nasa portal to data 
+		// using the XMLHttpRequest 
+		function sendHttpRequest(method, url, mode) {
+			return new Promise((resolve, reject) => {
+
+				var req = new XMLHttpRequest();
+				req.onreadystatechange = function () {
+					if (this.readyState == 4) {
+						if (this.status == 200) {
+							var data = JSON
+								.parse(this.response);
+							console.log(data);
+							resolve(data);
+						}
+					}
+				}
+				req.open(method, url, mode);
+				req.send();
+			});
+		}
+	</script>
+</body>
+
+</html>
